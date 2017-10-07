@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD409D01F89636D00FFE1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD409CF1F89636D00FFE1EE /* AppDelegate.swift */; };
+		FCD409D21F89636D00FFE1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD409D11F89636D00FFE1EE /* ViewController.swift */; };
+		FCD409D51F89636D00FFE1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD409D31F89636D00FFE1EE /* Main.storyboard */; };
+		FCD409D81F89636D00FFE1EE /* Knots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD409D61F89636D00FFE1EE /* Knots.xcdatamodeld */; };
+		FCD409DA1F89636D00FFE1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD409D91F89636D00FFE1EE /* Assets.xcassets */; };
+		FCD409DD1F89636D00FFE1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD409DB1F89636D00FFE1EE /* LaunchScreen.storyboard */; };
+		FCD409E81F89636D00FFE1EE /* KnotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD409E71F89636D00FFE1EE /* KnotsTests.swift */; };
+		FCD409F31F89636D00FFE1EE /* KnotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD409F21F89636D00FFE1EE /* KnotsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD409E41F89636D00FFE1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD409C41F89636D00FFE1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD409CB1F89636D00FFE1EE;
+			remoteInfo = Knots;
+		};
+		FCD409EF1F89636D00FFE1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD409C41F89636D00FFE1EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD409CB1F89636D00FFE1EE;
+			remoteInfo = Knots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCD409CC1F89636D00FFE1EE /* Knots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD409CF1F89636D00FFE1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD409D11F89636D00FFE1EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCD409D41F89636D00FFE1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD409D71F89636D00FFE1EE /* Knots.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Knots.xcdatamodel; sourceTree = "<group>"; };
+		FCD409D91F89636D00FFE1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD409DC1F89636D00FFE1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD409DE1F89636D00FFE1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD409E31F89636D00FFE1EE /* KnotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD409E71F89636D00FFE1EE /* KnotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnotsTests.swift; sourceTree = "<group>"; };
+		FCD409E91F89636D00FFE1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD409EE1F89636D00FFE1EE /* KnotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD409F21F89636D00FFE1EE /* KnotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnotsUITests.swift; sourceTree = "<group>"; };
+		FCD409F41F89636D00FFE1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD409C91F89636D00FFE1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD409E01F89636D00FFE1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD409EB1F89636D00FFE1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD409C31F89636D00FFE1EE = {
+			isa = PBXGroup;
+			children = (
+				FCD409CE1F89636D00FFE1EE /* Knots */,
+				FCD409E61F89636D00FFE1EE /* KnotsTests */,
+				FCD409F11F89636D00FFE1EE /* KnotsUITests */,
+				FCD409CD1F89636D00FFE1EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD409CD1F89636D00FFE1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD409CC1F89636D00FFE1EE /* Knots.app */,
+				FCD409E31F89636D00FFE1EE /* KnotsTests.xctest */,
+				FCD409EE1F89636D00FFE1EE /* KnotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD409CE1F89636D00FFE1EE /* Knots */ = {
+			isa = PBXGroup;
+			children = (
+				FCD409CF1F89636D00FFE1EE /* AppDelegate.swift */,
+				FCD409D11F89636D00FFE1EE /* ViewController.swift */,
+				FCD409D31F89636D00FFE1EE /* Main.storyboard */,
+				FCD409D91F89636D00FFE1EE /* Assets.xcassets */,
+				FCD409DB1F89636D00FFE1EE /* LaunchScreen.storyboard */,
+				FCD409DE1F89636D00FFE1EE /* Info.plist */,
+				FCD409D61F89636D00FFE1EE /* Knots.xcdatamodeld */,
+			);
+			path = Knots;
+			sourceTree = "<group>";
+		};
+		FCD409E61F89636D00FFE1EE /* KnotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD409E71F89636D00FFE1EE /* KnotsTests.swift */,
+				FCD409E91F89636D00FFE1EE /* Info.plist */,
+			);
+			path = KnotsTests;
+			sourceTree = "<group>";
+		};
+		FCD409F11F89636D00FFE1EE /* KnotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD409F21F89636D00FFE1EE /* KnotsUITests.swift */,
+				FCD409F41F89636D00FFE1EE /* Info.plist */,
+			);
+			path = KnotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD409CB1F89636D00FFE1EE /* Knots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD409F71F89636D00FFE1EE /* Build configuration list for PBXNativeTarget "Knots" */;
+			buildPhases = (
+				FCD409C81F89636D00FFE1EE /* Sources */,
+				FCD409C91F89636D00FFE1EE /* Frameworks */,
+				FCD409CA1F89636D00FFE1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knots;
+			productName = Knots;
+			productReference = FCD409CC1F89636D00FFE1EE /* Knots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD409E21F89636D00FFE1EE /* KnotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD409FA1F89636D00FFE1EE /* Build configuration list for PBXNativeTarget "KnotsTests" */;
+			buildPhases = (
+				FCD409DF1F89636D00FFE1EE /* Sources */,
+				FCD409E01F89636D00FFE1EE /* Frameworks */,
+				FCD409E11F89636D00FFE1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD409E51F89636D00FFE1EE /* PBXTargetDependency */,
+			);
+			name = KnotsTests;
+			productName = KnotsTests;
+			productReference = FCD409E31F89636D00FFE1EE /* KnotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD409ED1F89636D00FFE1EE /* KnotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD409FD1F89636D00FFE1EE /* Build configuration list for PBXNativeTarget "KnotsUITests" */;
+			buildPhases = (
+				FCD409EA1F89636D00FFE1EE /* Sources */,
+				FCD409EB1F89636D00FFE1EE /* Frameworks */,
+				FCD409EC1F89636D00FFE1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD409F01F89636D00FFE1EE /* PBXTargetDependency */,
+			);
+			name = KnotsUITests;
+			productName = KnotsUITests;
+			productReference = FCD409EE1F89636D00FFE1EE /* KnotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD409C41F89636D00FFE1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jamin514;
+				TargetAttributes = {
+					FCD409CB1F89636D00FFE1EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HNJRF7GFAL;
+						ProvisioningStyle = Automatic;
+					};
+					FCD409E21F89636D00FFE1EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HNJRF7GFAL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCD409CB1F89636D00FFE1EE;
+					};
+					FCD409ED1F89636D00FFE1EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HNJRF7GFAL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCD409CB1F89636D00FFE1EE;
+					};
+				};
+			};
+			buildConfigurationList = FCD409C71F89636D00FFE1EE /* Build configuration list for PBXProject "Knots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD409C31F89636D00FFE1EE;
+			productRefGroup = FCD409CD1F89636D00FFE1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD409CB1F89636D00FFE1EE /* Knots */,
+				FCD409E21F89636D00FFE1EE /* KnotsTests */,
+				FCD409ED1F89636D00FFE1EE /* KnotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD409CA1F89636D00FFE1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD409DD1F89636D00FFE1EE /* LaunchScreen.storyboard in Resources */,
+				FCD409DA1F89636D00FFE1EE /* Assets.xcassets in Resources */,
+				FCD409D51F89636D00FFE1EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD409E11F89636D00FFE1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD409EC1F89636D00FFE1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD409C81F89636D00FFE1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD409D21F89636D00FFE1EE /* ViewController.swift in Sources */,
+				FCD409D01F89636D00FFE1EE /* AppDelegate.swift in Sources */,
+				FCD409D81F89636D00FFE1EE /* Knots.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD409DF1F89636D00FFE1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD409E81F89636D00FFE1EE /* KnotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD409EA1F89636D00FFE1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD409F31F89636D00FFE1EE /* KnotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD409E51F89636D00FFE1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD409CB1F89636D00FFE1EE /* Knots */;
+			targetProxy = FCD409E41F89636D00FFE1EE /* PBXContainerItemProxy */;
+		};
+		FCD409F01F89636D00FFE1EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD409CB1F89636D00FFE1EE /* Knots */;
+			targetProxy = FCD409EF1F89636D00FFE1EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD409D31F89636D00FFE1EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD409D41F89636D00FFE1EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD409DB1F89636D00FFE1EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD409DC1F89636D00FFE1EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD409F51F89636D00FFE1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD409F61F89636D00FFE1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD409F81F89636D00FFE1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HNJRF7GFAL;
+				INFOPLIST_FILE = Knots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamin514.Knots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCD409F91F89636D00FFE1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HNJRF7GFAL;
+				INFOPLIST_FILE = Knots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamin514.Knots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCD409FB1F89636D00FFE1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HNJRF7GFAL;
+				INFOPLIST_FILE = KnotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamin514.KnotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knots.app/Knots";
+			};
+			name = Debug;
+		};
+		FCD409FC1F89636D00FFE1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HNJRF7GFAL;
+				INFOPLIST_FILE = KnotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamin514.KnotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knots.app/Knots";
+			};
+			name = Release;
+		};
+		FCD409FE1F89636D00FFE1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HNJRF7GFAL;
+				INFOPLIST_FILE = KnotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamin514.KnotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Knots;
+			};
+			name = Debug;
+		};
+		FCD409FF1F89636D00FFE1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HNJRF7GFAL;
+				INFOPLIST_FILE = KnotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamin514.KnotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Knots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD409C71F89636D00FFE1EE /* Build configuration list for PBXProject "Knots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD409F51F89636D00FFE1EE /* Debug */,
+				FCD409F61F89636D00FFE1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD409F71F89636D00FFE1EE /* Build configuration list for PBXNativeTarget "Knots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD409F81F89636D00FFE1EE /* Debug */,
+				FCD409F91F89636D00FFE1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCD409FA1F89636D00FFE1EE /* Build configuration list for PBXNativeTarget "KnotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD409FB1F89636D00FFE1EE /* Debug */,
+				FCD409FC1F89636D00FFE1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCD409FD1F89636D00FFE1EE /* Build configuration list for PBXNativeTarget "KnotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD409FE1F89636D00FFE1EE /* Debug */,
+				FCD409FF1F89636D00FFE1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCD409D61F89636D00FFE1EE /* Knots.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCD409D71F89636D00FFE1EE /* Knots.xcdatamodel */,
+			);
+			currentVersion = FCD409D71F89636D00FFE1EE /* Knots.xcdatamodel */;
+			path = Knots.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCD409C41F89636D00FFE1EE /* Project object */;
+}
