@@ -50,13 +50,15 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         nodes.append(view1)
         view1.tag = 0
         var view1Title = "Ben1"
+        
+        
         view1.imageView.image = UIImage(named: view1Title)
         view1.imageTitle = view1Title
         view1.associatedPeople.append(ppl[2])
         view1.addGestureRecognizer(gr)
         people.append(People(nam: "Ben Choi", user: "bchoi14", numBond: 3, birth: "05/14/1998", ema: "bchoi12@igl.aje"))
         
-        let view2 = Node(frame: CGRect(x: (view.frame.size.width * 11)/2.0, y: (view.frame.size.height * 11)/2, width: 100, height: 130))
+        let view2 = Node(frame: CGRect(x: (view.frame.size.width * 11)/2.0, y: (view.frame.size.height * 11)/2, width: 90, height: 90))
         nodes.append(view2)
         var view2Title = "Minty1"
         view2.tag = 1
@@ -103,7 +105,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
         var view6Title = "Ben3"
         view6.tag = 5
-        view6.imageView.image = UIImage(named: view5Title)
+        view6.imageView.image = UIImage(named: view6Title)
         view6.imageTitle = view6Title
         view6.associatedPeople.append(ppl[2])
         view6.addGestureRecognizer(gr6)
@@ -114,7 +116,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
         var view7Title = "Hannah1"
         view7.tag = 6
-        view7.imageView.image = UIImage(named: view5Title)
+        view7.imageView.image = UIImage(named: view7Title)
         view7.imageTitle = view7Title
         view7.associatedPeople.append(ppl[1])
         view7.addGestureRecognizer(gr7)
