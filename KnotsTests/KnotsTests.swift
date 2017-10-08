@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Knots
 
 class KnotsTests: XCTestCase {
     

@@ -15,6 +15,24 @@
 		FCD409DD1F89636D00FFE1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD409DB1F89636D00FFE1EE /* LaunchScreen.storyboard */; };
 		FCD409E81F89636D00FFE1EE /* KnotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD409E71F89636D00FFE1EE /* KnotsTests.swift */; };
 		FCD409F31F89636D00FFE1EE /* KnotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD409F21F89636D00FFE1EE /* KnotsUITests.swift */; };
+		FCD40A031F89D64800FFE1EE /* PicturePressed.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD40A021F89D64800FFE1EE /* PicturePressed.xib */; };
+		FCD40A051F89DA3E00FFE1EE /* EasyPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A041F89DA3E00FFE1EE /* EasyPopup.swift */; };
+		FCD40A071F89DF7E00FFE1EE /* Node.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD40A061F89DF7E00FFE1EE /* Node.xib */; };
+		FCD40A091F89DFD800FFE1EE /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A081F89DFD800FFE1EE /* Node.swift */; };
+		FCD40A0B1F89E51000FFE1EE /* Popup.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD40A0A1F89E51000FFE1EE /* Popup.xib */; };
+		FCD40A0D1F89E82800FFE1EE /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A0C1F89E82800FFE1EE /* Popup.swift */; };
+		FCD40A111F89FF9A00FFE1EE /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A101F89FF9A00FFE1EE /* Line.swift */; };
+		FCD40A151F8A128F00FFE1EE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A141F8A128F00FFE1EE /* ProfileViewController.swift */; };
+		FCD40A1A1F8A1E2D00FFE1EE /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A161F8A1E2D00FFE1EE /* PreviewView.swift */; };
+		FCD40A1B1F8A1E2D00FFE1EE /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A171F8A1E2D00FFE1EE /* SwiftyCamButton.swift */; };
+		FCD40A1C1F8A1E2D00FFE1EE /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A181F8A1E2D00FFE1EE /* SwiftyCamViewController.swift */; };
+		FCD40A1D1F8A1E2D00FFE1EE /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A191F8A1E2D00FFE1EE /* SwiftyCamViewControllerDelegate.swift */; };
+		FCD40A1F1F8A1EDB00FFE1EE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A1E1F8A1EDB00FFE1EE /* CameraViewController.swift */; };
+		FCD40A231F8A226900FFE1EE /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A221F8A226900FFE1EE /* PhotoViewController.swift */; };
+		FCD40A291F8A247100FFE1EE /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A281F8A247100FFE1EE /* SwiftyRecordButton.swift */; };
+		FCD40A2B1F8A2BB100FFE1EE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A2A1F8A2BB100FFE1EE /* SearchViewController.swift */; };
+		FCD40A2D1F8A323800FFE1EE /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A2C1F8A323800FFE1EE /* People.swift */; };
+		FCD40A311F8A6D9C00FFE1EE /* LongNiceTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD40A301F8A6D9C00FFE1EE /* LongNiceTalk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		FCD409EE1F89636D00FFE1EE /* KnotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD409F21F89636D00FFE1EE /* KnotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnotsUITests.swift; sourceTree = "<group>"; };
 		FCD409F41F89636D00FFE1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD40A021F89D64800FFE1EE /* PicturePressed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicturePressed.xib; sourceTree = "<group>"; };
+		FCD40A041F89DA3E00FFE1EE /* EasyPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyPopup.swift; sourceTree = "<group>"; };
+		FCD40A061F89DF7E00FFE1EE /* Node.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Node.xib; sourceTree = "<group>"; };
+		FCD40A081F89DFD800FFE1EE /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		FCD40A0A1F89E51000FFE1EE /* Popup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Popup.xib; sourceTree = "<group>"; };
+		FCD40A0C1F89E82800FFE1EE /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		FCD40A101F89FF9A00FFE1EE /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		FCD40A141F8A128F00FFE1EE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		FCD40A161F8A1E2D00FFE1EE /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		FCD40A171F8A1E2D00FFE1EE /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamButton.swift; sourceTree = "<group>"; };
+		FCD40A181F8A1E2D00FFE1EE /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		FCD40A191F8A1E2D00FFE1EE /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FCD40A1E1F8A1EDB00FFE1EE /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FCD40A221F8A226900FFE1EE /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		FCD40A281F8A247100FFE1EE /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		FCD40A2A1F8A2BB100FFE1EE /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FCD40A2C1F8A323800FFE1EE /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		FCD40A301F8A6D9C00FFE1EE /* LongNiceTalk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongNiceTalk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +135,19 @@
 		FCD409CE1F89636D00FFE1EE /* Knots */ = {
 			isa = PBXGroup;
 			children = (
+				FCD40A2E1F8A522F00FFE1EE /* Classes */,
+				FCD40A2F1F8A524200FFE1EE /* View Controllers */,
 				FCD409CF1F89636D00FFE1EE /* AppDelegate.swift */,
-				FCD409D11F89636D00FFE1EE /* ViewController.swift */,
 				FCD409D31F89636D00FFE1EE /* Main.storyboard */,
+				FCD40A021F89D64800FFE1EE /* PicturePressed.xib */,
 				FCD409D91F89636D00FFE1EE /* Assets.xcassets */,
 				FCD409DB1F89636D00FFE1EE /* LaunchScreen.storyboard */,
 				FCD409DE1F89636D00FFE1EE /* Info.plist */,
 				FCD409D61F89636D00FFE1EE /* Knots.xcdatamodeld */,
+				FCD40A0C1F89E82800FFE1EE /* Popup.swift */,
+				FCD40A061F89DF7E00FFE1EE /* Node.xib */,
+				FCD40A081F89DFD800FFE1EE /* Node.swift */,
+				FCD40A0A1F89E51000FFE1EE /* Popup.xib */,
 			);
 			path = Knots;
 			sourceTree = "<group>";
@@ -126,6 +168,34 @@
 				FCD409F41F89636D00FFE1EE /* Info.plist */,
 			);
 			path = KnotsUITests;
+			sourceTree = "<group>";
+		};
+		FCD40A2E1F8A522F00FFE1EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCD40A101F89FF9A00FFE1EE /* Line.swift */,
+				FCD40A041F89DA3E00FFE1EE /* EasyPopup.swift */,
+				FCD40A161F8A1E2D00FFE1EE /* PreviewView.swift */,
+				FCD40A171F8A1E2D00FFE1EE /* SwiftyCamButton.swift */,
+				FCD40A181F8A1E2D00FFE1EE /* SwiftyCamViewController.swift */,
+				FCD40A281F8A247100FFE1EE /* SwiftyRecordButton.swift */,
+				FCD40A191F8A1E2D00FFE1EE /* SwiftyCamViewControllerDelegate.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FCD40A2F1F8A524200FFE1EE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCD40A141F8A128F00FFE1EE /* ProfileViewController.swift */,
+				FCD40A221F8A226900FFE1EE /* PhotoViewController.swift */,
+				FCD409D11F89636D00FFE1EE /* ViewController.swift */,
+				FCD40A301F8A6D9C00FFE1EE /* LongNiceTalk.swift */,
+				FCD40A2A1F8A2BB100FFE1EE /* SearchViewController.swift */,
+				FCD40A1E1F8A1EDB00FFE1EE /* CameraViewController.swift */,
+				FCD40A2C1F8A323800FFE1EE /* People.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,17 +267,20 @@
 					FCD409CB1F89636D00FFE1EE = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HNJRF7GFAL;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					FCD409E21F89636D00FFE1EE = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HNJRF7GFAL;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FCD409CB1F89636D00FFE1EE;
 					};
 					FCD409ED1F89636D00FFE1EE = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HNJRF7GFAL;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FCD409CB1F89636D00FFE1EE;
 					};
@@ -238,7 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD40A0B1F89E51000FFE1EE /* Popup.xib in Resources */,
 				FCD409DD1F89636D00FFE1EE /* LaunchScreen.storyboard in Resources */,
+				FCD40A071F89DF7E00FFE1EE /* Node.xib in Resources */,
+				FCD40A031F89D64800FFE1EE /* PicturePressed.xib in Resources */,
 				FCD409DA1F89636D00FFE1EE /* Assets.xcassets in Resources */,
 				FCD409D51F89636D00FFE1EE /* Main.storyboard in Resources */,
 			);
@@ -265,9 +341,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD40A311F8A6D9C00FFE1EE /* LongNiceTalk.swift in Sources */,
+				FCD40A0D1F89E82800FFE1EE /* Popup.swift in Sources */,
+				FCD40A1B1F8A1E2D00FFE1EE /* SwiftyCamButton.swift in Sources */,
+				FCD40A051F89DA3E00FFE1EE /* EasyPopup.swift in Sources */,
 				FCD409D21F89636D00FFE1EE /* ViewController.swift in Sources */,
+				FCD40A091F89DFD800FFE1EE /* Node.swift in Sources */,
+				FCD40A1A1F8A1E2D00FFE1EE /* PreviewView.swift in Sources */,
+				FCD40A111F89FF9A00FFE1EE /* Line.swift in Sources */,
+				FCD40A151F8A128F00FFE1EE /* ProfileViewController.swift in Sources */,
 				FCD409D01F89636D00FFE1EE /* AppDelegate.swift in Sources */,
+				FCD40A1D1F8A1E2D00FFE1EE /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				FCD40A2B1F8A2BB100FFE1EE /* SearchViewController.swift in Sources */,
+				FCD40A291F8A247100FFE1EE /* SwiftyRecordButton.swift in Sources */,
+				FCD40A1F1F8A1EDB00FFE1EE /* CameraViewController.swift in Sources */,
+				FCD40A1C1F8A1E2D00FFE1EE /* SwiftyCamViewController.swift in Sources */,
+				FCD40A231F8A226900FFE1EE /* PhotoViewController.swift in Sources */,
 				FCD409D81F89636D00FFE1EE /* Knots.xcdatamodeld in Sources */,
+				FCD40A2D1F8A323800FFE1EE /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HNJRF7GFAL;
 				INFOPLIST_FILE = Knots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jamin514.Knots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HNJRF7GFAL;
 				INFOPLIST_FILE = Knots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jamin514.Knots;
 				PRODUCT_NAME = "$(TARGET_NAME)";

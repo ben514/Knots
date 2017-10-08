@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Knots/Line.swift"
+            timestampString = "529138718.619702"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init(p1:size1:p2:size2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Knots/SearchViewController.swift"
+            timestampString = "529158406.963388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "SearchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knots.SearchViewController.pplLst.getter : Swift.Array&lt;Knots.People&gt;"
+                  moduleName = "Knots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CTRING/Documents/hackathon/Knots/Knots/SearchViewController.swift"
+                  timestampString = "529169975.692228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knots.SearchViewController.pplLst.setter : Swift.Array&lt;Knots.People&gt;"
+                  moduleName = "Knots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CTRING/Documents/hackathon/Knots/Knots/SearchViewController.swift"
+                  timestampString = "529169975.694553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knots.SearchViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Knots.SearchViewController"
+                  moduleName = "Knots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CTRING/Documents/hackathon/Knots/Knots/SearchViewController.swift"
+                  timestampString = "529169975.696834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Knots.SearchViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Knots.SearchViewController&gt;"
+                  moduleName = "Knots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CTRING/Documents/hackathon/Knots/Knots/SearchViewController.swift"
+                  timestampString = "529169975.699282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
